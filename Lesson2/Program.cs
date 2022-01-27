@@ -10,7 +10,7 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-           double sred;
+            double sred;
             Console.WriteLine("Введите минимальную температуру за сутки");
             var min = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите максимальную температуру за сутки");
