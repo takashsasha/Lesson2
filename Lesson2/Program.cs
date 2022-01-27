@@ -10,8 +10,7 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Введите порядковый номер текущего месяца");
+                        Console.WriteLine("Введите порядковый номер текущего месяца");
             var dayOfWeek = Convert.ToInt32(Console.ReadLine());
             if ((dayOfWeek <= 0) || (dayOfWeek >= 13))
             {
