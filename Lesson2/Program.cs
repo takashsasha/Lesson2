@@ -10,13 +10,16 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-           double sred;
-            Console.WriteLine("Введите минимальную температуру за сутки");
-            var min = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите максимальную температуру за сутки");
-            var max = Convert.ToDouble(Console.ReadLine());
-            sred = (min + max) / 2;
-            Console.WriteLine($"Среднесуточная температура = {sred}");
+            Console.WriteLine("Введите число которое мы проверим на четность");
+            var num = Convert.ToDouble(Console.ReadLine());
+            if ((num % 2) != 0)
+            {
+                Console.WriteLine("Введенное число не четное");
+            }
+            else
+            {
+                Console.WriteLine("Введенное число четное");
+            }
             Console.ReadKey();
         }
     }
